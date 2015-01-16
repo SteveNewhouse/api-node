@@ -5,8 +5,17 @@ This simple service polls the assignments/list_updated endpoint for modified ass
 
 ### Instructions
 
+Install dependencies with npm.
+
+```
+cd path/to/api-node
+npm install
+```
+
 Update server.js with your api.dev.workmarket.com (sandbox) API token & secret.  Then, start the service:
 
 ```
 node server.js
 ```
+
+Enjoy!
