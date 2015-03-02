@@ -1,7 +1,7 @@
 {
   "name": "api-node",
   "version": "0.0.1",
-  "description": "Sampel node.js integration server for Work Market API v1",
+  "description": "Sample node.js integration server for Work Market API v1",
   "main": "server.js",
   "scripts": {
     "test": "mocha test"
@@ -10,6 +10,7 @@
   "license": "ISC",
   "dependencies": {
     "body-parser": "^1.10.0",
+    "connect-mongo": "^0.5.3",
     "mocha": "^2.0.1",
     "mongoose": "^3.8.21",
     "request": "^2.51.0",
